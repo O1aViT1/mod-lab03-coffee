@@ -47,7 +47,7 @@ TEST(automata_tests, test_check_money) {
 TEST(automata_tests, test_check_fail) {
     Automata a;
     a.on();
-    a.coin(5); 
+    a.coin(5);
     a.choice(0);
     EXPECT_FALSE(a.check());
 }
