@@ -1,4 +1,7 @@
+// Copyright 2022 GHA Test Team
 #include "Automata.h"
+#include <string>
+#include <vector>
 
 Automata::Automata() {
     balance = 0;
